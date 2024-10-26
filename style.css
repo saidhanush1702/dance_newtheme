@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 110px;
+}
+
+.parallelogram_home {
+    width: 100%;
+    height: 80vh;
+    background-color: lightblue;
+    position: absolute;
+    transform: skewY(-3deg); /* Skew the div on the X-axis */
+
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pics/backimg.jfif'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); /* Adjust blur level */
+    z-index: 0;
+}
+
+.straight{
+    height: 100%;
+    transform: skewY(3deg);
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+.book_appoint{
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(235,95,70,255);
+    position:absolute;
+    top:70vh;
+    z-index:-1;
+}
+
+#schedule{
+      margin-top: 290px;
+}
+
+.about_us{
+    width: 100%;
+    height: 30vh;
+    background-color:white;
+    position: absolute;
+    top: 150vh;
+}
+
+svg{
+    height: 50px;
+}
+
+
+
+.parallelogram_videos {
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(40,46,60,255);
+    position: absolute;
+    top:190vh;
+    transform: skewY(3deg); /* Skew the div on the X-axis */
+}
+
+#classes{
+    transform: skewY(-3deg);
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:254vh;
+}

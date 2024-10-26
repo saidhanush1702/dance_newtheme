@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DanceStudio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        
+        <div class="container d-flex flex-column flex-sm-row justify-content-between align-items-center py-3">
+            <h1 class="text-center">DanceStudio</h1>
+            <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex flex-row">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="#classes">Classes</a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="parallelogram_home">
+        <div class="background"></div>
+        <div class="straight text-center">
+            <p class="display-4 fw-bold">WE'LL TEACH YOU</p>
+            <p class="display-2 fw-bold">DANCE</p>
+        </div>
+    </div>
+
+    
+    <div class="book_appoint">
+        <div id="schedule" class="container pt-5 align-items-center">
+            <h2>Schedule an Appointment</h2>
+            <p>This is a schedule an appointment.</p>
+          </div>
+    </div>
+
+    <div class="about_us">
+        <div id="aboutus" class="container py-4 grayishcolor">
+            <h2>About Us</h2>
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <div class="feature-item">
+                  <h3>Learn how to dance</h3>
+                  <svg
+                    version="1.1"
+                    id="L3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 100 100"
+                    enable-background="new 0 0 0 0"
+                    xml:space="preserve"
+                  >
+                    <circle
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="5"
+                      cx="50"
+                      cy="50"
+                      r="44"
+                      style="opacity: 0.5"
+                    />
+                    <circle
+                      fill="#fff"
+                      stroke="#e74c3c"
+                      stroke-width="3"
+                      cx="8"
+                      cy="54"
+                      r="6"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        dur="2s"
+                        type="rotate"
+                        from="0 50 48"
+                        to="360 50 52"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                  </svg>
+      
+                  <img
+                    src="pics/learn_to_dance.jpg"
+                    alt="Learn to Dance"
+                    class="img-fluid"
+                    style="display: none"
+                    onload="hideLoader()"
+                  />
+                  <p>Experience amazing lessons with professional instructors.</p>
+                </div>
+              </div>
+              <div class="col-md-4 text-center">
+                <div class="feature-item">
+                  <h3>About our Studio</h3>
+                  <svg
+                    version="1.1"
+                    id="L3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 100 100"
+                    enable-background="new 0 0 0 0"
+                    xml:space="preserve"
+                  >
+                    <circle
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="5"
+                      cx="50"
+                      cy="50"
+                      r="44"
+                      style="opacity: 0.5"
+                    />
+                    <circle
+                      fill="#fff"
+                      stroke="#e74c3c"
+                      stroke-width="3"
+                      cx="8"
+                      cy="54"
+                      r="6"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        dur="2s"
+                        type="rotate"
+                        from="0 50 48"
+                        to="360 50 52"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                  </svg>
+                  <img
+                    src="pics/learn_to_dance.jpg"
+                    alt="Learn to Dance"
+                    class="img-fluid"
+                    style="display: none"
+                    onload="hideLoader()"
+                  />
+                  <p>
+                    Our studio is equipped with the best facilities to ensure a
+                    comfortable learning environment.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 text-center">
+                <div class="feature-item">
+                  <h3>Client Reviews</h3>
+      
+                  <svg
+                    version="1.1"
+                    id="L3"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 100 100"
+                    enable-background="new 0 0 0 0"
+                    xml:space="preserve"
+                  >
+                    <circle
+                      fill="none"
+                      stroke="#fff"
+                      stroke-width="5"
+                      cx="50"
+                      cy="50"
+                      r="44"
+                      style="opacity: 0.5"
+                    />
+                    <circle
+                      fill="#fff"
+                      stroke="#e74c3c"
+                      stroke-width="3"
+                      cx="8"
+                      cy="54"
+                      r="6"
+                    >
+                      <animateTransform
+                        attributeName="transform"
+                        dur="2s"
+                        type="rotate"
+                        from="0 50 48"
+                        to="360 50 52"
+                        repeatCount="indefinite"
+                      />
+                    </circle>
+                  </svg>
+                  <img
+                    src="pics/learn_to_dance.jpg"
+                    alt="Learn to Dance"
+                    class="img-fluid"
+                    style="display: none"
+                    onload="hideLoader()"
+                  />
+                  <p>
+                    Our students love the experience and the journey of becoming great
+                    dancers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="parallelogram_videos">
+        <div id="classes" class="container py-4 text-white">
+            <h1>Our Classes</h1>
+            <div class="row">
+              <div class="col-md-4 mb-2">
+                <video src="pics/women_dance.mp4" controls class="img-fluid"></video>
+              </div>
+              <div class="col-md-4 mb-2">
+                <video
+                  src="pics/children_dance.mp4"
+                  controls
+                  class="img-fluid"
+                ></video>
+              </div>
+              <div class="col-md-4 mb-2">
+                <video src="pics/men_dance.mp4" controls class="img-fluid"></video>
+              </div>
+            </div>
+            <div class="extracontent text-center">
+              <a href="#" class="btn btn-primary">More...</a>
+            </div>
+          </div>
+      
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Social media connectivity, rights reserved</p>
+      </footer>
+  
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9gybSLptU5nQ9r1C2kt2/Nf/2+AQbJ8nRJ8C75DApJo8tBQ5cdG"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-C8nTOM2BTA3Zw5PwlDQnFx3hftFgrZFG8YFHVVwC8V9YYg+81ZFLp7/Jk0R5X4np"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script>
+                
+        function hideLoader() {
+            // Hide the loader and display the image once it’s fully loaded
+            document.getElementById('loader').style.display = 'none';
+            document.getElementById('main-image').style.display = 'block';
+        }
+      </script>
+    
+  </body>
+</html>

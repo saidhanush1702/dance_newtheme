@@ -88,3 +88,34 @@ footer{
     position: absolute;
     top:254vh;
 }
+
+@media (max-width: 768px) {
+    .parallelogram_home {
+        width: 100%;
+        height: 80vh;
+        background-color: lightblue;
+        position: absolute;
+        transform: skewY(-3deg); /* Skew the div on the X-axis */
+        position:absolute;
+        top:20vh;
+    }
+
+    .parallelogram_videos {
+        width: 100%;
+        height: 110vh;
+        background-color: rgba(40,46,60,255);
+        position: absolute;
+        top:240vh;
+        transform: skewY(3deg); /* Skew the div on the X-axis */
+    }
+
+    footer{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+        color: white;
+        position: absolute;
+        top:345vh;
+    }
+    
+  }
